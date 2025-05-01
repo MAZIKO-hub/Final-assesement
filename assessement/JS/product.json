@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1746132263996,
+    "name": "laptop",
+    "category": "electronics",
+    "quantity": 12,
+    "price": 1500
+  },
+  {
+    "id": 1746133323654,
+    "name": "laptop",
+    "category": "electronics",
+    "quantity": 12,
+    "price": 1500
+  }
+]

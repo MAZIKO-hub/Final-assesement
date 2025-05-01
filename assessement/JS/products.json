@@ -1,0 +1,58 @@
+[
+  {
+    "id": 4,
+    "name": "Dish washing liquid",
+    "category": "Household",
+    "quantity": 4,
+    "price": 123.8
+  },
+  {
+    "id": 5,
+    "name": "Samsung S24",
+    "category": "Electronics",
+    "quantity": 3,
+    "price": 1000000
+  },
+  {
+    "id": 6,
+    "name": "Fanta",
+    "category": "Beverages",
+    "quantity": 39,
+    "price": 100
+  },
+  {
+    "id": 7,
+    "name": "Toothpaste",
+    "category": "Toiletries",
+    "quantity": 10,
+    "price": 12345
+  },
+  {
+    "id": 8,
+    "name": "Engine oil",
+    "category": "Automotive",
+    "quantity": 5,
+    "price": 220000
+  },
+  {
+    "id": 9,
+    "name": "Money Clips",
+    "category": "Stationery",
+    "quantity": 12,
+    "price": 16
+  },
+  {
+    "id": 10,
+    "name": "Nails",
+    "category": "Hardware",
+    "quantity": 20000,
+    "price": 50
+  },
+  {
+    "id": 11,
+    "name": "Mens shorts",
+    "category": "Clothing",
+    "quantity": 30,
+    "price": 3000
+  }
+]

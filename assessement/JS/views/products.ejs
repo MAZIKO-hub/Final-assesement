@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Catalogue</title>
+    <link rel="stylesheet" href="/products.css">
+</head>
+<body>
+
+    <nav>  
+        <a href="/home">Home</a>
+        <a href="/products">Products</a>
+        <a href="/newproducts">New Products</a>
+        <a href="/Dashboard">Dashboard</a>
+        <a href="/logout" class="logout">Logout</a>
+    </nav>
+
+    <h1>Products Catalogue</h1>
+    
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th colspan="2">Actions</th>
+        </tr>
+        <% for (let i = 0; i < jproducts.length; i++) { %>
+        <tr>
+            <td><%= jproducts[i].id %></td>
+            <td><%= jproducts[i].name %></td>
+            <td><%= jproducts[i].category %></td>
+            <td><%= jproducts[i].quantity %></td>
+            <td><%= jproducts[i].price %></td>
+            <td><a href="/edit/<%= jproducts[i].ID %>">Edit</a></td>
+            <td><a href="/delete/<%= jproducts[i].ID %>">Delete</a></td>
+        </tr>
+        <% } %>
+    </table>
+
+</body>
+</html>
